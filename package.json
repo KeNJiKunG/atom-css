@@ -1,0 +1,15 @@
+{
+  "name": "atom-css",
+  "version": "0.1.0",
+  "description": "atom-css generator",
+  "main": "atom-css.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KeNJiKunG <rittisug@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "extend": "^3.0.0"
+  }
+}
