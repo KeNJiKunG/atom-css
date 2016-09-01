@@ -1,6 +1,6 @@
 {
   "name": "mini-style",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "mini-style to use as atomic css",
   "main": "mini-style.js",
   "scripts": {
