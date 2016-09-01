@@ -1,6 +1,6 @@
 {
   "name": "mini-style",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "mini-style to use as atomic css",
   "main": "mini-style.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "KeNJiKunG <garo.kenjikung@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/KeNJiKunG/mini-style",
   "dependencies": {
     "lodash": "^4.0.0",
     "extend": "^3.0.0"

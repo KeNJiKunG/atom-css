@@ -68,6 +68,7 @@ Use h suffix to use hsl color space.
 
 *Remark* : no 1, 2 digits because there are conflict with other class ( cb, cf )
 | Digits | Example | Result |
+| :-: | :-- | :-- |
 | 3 | c999 | color: #999; |
 | 3 | c999h | color: hsl( 9/16, 90%, 90% ); |
 | 4 | c9999 | color: rgba( 144, 144, 144, 0.9 ); |
