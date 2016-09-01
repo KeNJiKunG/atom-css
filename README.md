@@ -1,5 +1,7 @@
-# atom-css
-A bunch of shortened CSS class for element styling
+# mini-style
+A bunch of shortened CSS class for element styling.
+**THIS PROJECT IS PARTIALLY IMPLEMENTED. USE AT YOUR OWN RISK.**
+**BE WARNED** : It may have some conflict naming in the future. Please consider create an issue if you find one.
 
 # Shortcuts
 | Shorthand | Properties | Example | Result |
@@ -45,15 +47,19 @@ Change the condition
 | ) | max | w20) |  .w20) { max-width: 20px; } |
 | : | media query | lg:w20 | @media lg(min-width: 1120px){ <br> .lg:w20 { max-width: 20px; }<br> } |
 | . | if | c.w20 |  .c.w20 { width: 20px; }` |
+| @ | event selector | c@hover | .c@hover:hover { text-align: center; } |
 | \| | Modernizr feature condition | w20\|canvas |  .canvas .w20 { width: 20px; } |
 | ? | Developer helper | w?<br>w?1 | .w? { width: 20px !important; }<br>.w? { width: 20px !important; } |
 
 ## Unit Modifiers
 | Modifier | Effect | Example | Result |
 | :-: | :-- | --- | :-- |
-| / | fraction | g-1/2 |  .g-1/2 { width: 50%; } |
+| / | fraction | gd1/2 |  .gd1/2 { width: 50%; } |
 | p | percent | w20p |  .w20p { width: 20%; } |
 | . | literal fraction | ls1.3 | .ls1.3 { letter-spacing: 1.3px; } |
+| a | auto | mxa | .mxa { margin-left: auto; margin-right: auto; } |
 
 # TO-DO
-- Write gulp script to generate CSS class that found or included in script
+- Implement all the selector matching.
+- Write gulp script to generate CSS class that found or included in script.
+- Add warning when there are too many mini-style on one element.

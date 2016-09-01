@@ -1,8 +1,8 @@
 {
-  "name": "atom-css",
+  "name": "mini-style",
   "version": "0.1.0",
-  "description": "atom-css generator",
-  "main": "atom-css.js",
+  "description": "mini-style to use as atomic css",
+  "main": "mini-style.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
