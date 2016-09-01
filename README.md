@@ -66,7 +66,8 @@ Use 3, 4, 6, 8 digit to specific the color code in hex based. and alpha channel 
 
 Use h suffix to use hsl color space.
 
-*Remark* : no 1, 2 digits because there are conflict with other class ( cb, cf )
+**Remark** : no 1, 2 digits because there are conflict with other class ( cb, cf )
+
 | Digits | Example | Result |
 | :-: | :-- | :-- |
 | 3 | c999 | color: #999; |
